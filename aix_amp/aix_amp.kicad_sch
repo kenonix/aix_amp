@@ -6,7 +6,49 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 67.31 20.32)
+		(at 21.59 52.07)
+		(size 36.83 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0efb2e7e-752a-4c09-a01b-8352ef63af5b")
+		(property "Sheetname" "interface"
+			(at 21.59 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "interface.kicad_sch"
+			(at 21.59 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aix_amp"
+				(path "/92363970-7a70-4a9d-91f1-fb8480a3037e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 55.88)
 		(size 69.85 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,7 +64,7 @@
 		)
 		(uuid "996ecc6a-1e28-44cd-a178-baf342056b23")
 		(property "Sheetname" "amp"
-			(at 67.31 19.6084 0)
+			(at 67.31 55.1684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +73,7 @@
 			)
 		)
 		(property "Sheetfile" "amp.kicad_sch"
-			(at 67.31 41.2246 0)
+			(at 67.31 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43,6 +85,48 @@
 			(project "aix_amp"
 				(path "/92363970-7a70-4a9d-91f1-fb8480a3037e"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 20.32)
+		(size 69.85 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a5e60701-3613-4641-b715-49056966143d")
+		(property "Sheetname" "filter"
+			(at 67.31 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "filter.kicad_sch"
+			(at 67.31 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "aix_amp"
+				(path "/92363970-7a70-4a9d-91f1-fb8480a3037e"
+					(page "4")
 				)
 			)
 		)
