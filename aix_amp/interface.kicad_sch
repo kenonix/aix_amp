@@ -2080,12 +2080,6 @@
 		(color 0 0 0 0)
 		(uuid "dece1beb-435a-48e4-b85e-c648cbb087ae")
 	)
-	(junction
-		(at 231.14 68.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fcbbd998-bece-4352-af09-252529cd9522")
-	)
 	(no_connect
 		(at 242.57 53.34)
 		(uuid "0809e6af-a57c-47d0-a755-cc35ddbb7406")
@@ -2189,16 +2183,6 @@
 			(type default)
 		)
 		(uuid "0e4a9427-d15b-4920-ada1-b6e532f4397d")
-	)
-	(wire
-		(pts
-			(xy 219.71 68.58) (xy 213.36 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1004fc33-cb54-4080-bc53-b45556e3e42f")
 	)
 	(wire
 		(pts
@@ -2442,16 +2426,6 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 68.58) (xy 213.36 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abd17e38-9bc8-47b3-8c55-609da502f3af")
-	)
-	(wire
-		(pts
 			(xy 248.92 93.98) (xy 240.03 93.98)
 		)
 		(stroke
@@ -2539,16 +2513,6 @@
 			(type default)
 		)
 		(uuid "eb99c890-89ff-4d92-be1b-20aee689aff4")
-	)
-	(wire
-		(pts
-			(xy 231.14 68.58) (xy 227.33 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7fc3b2-967b-4b86-842c-6c40fb3ec011")
 	)
 	(wire
 		(pts
@@ -2842,7 +2806,7 @@
 			(justify left bottom)
 		)
 		(uuid "f9209ba6-f942-4d27-a01e-ee9195e5b5b2")
-		(property "Netclass" "mic_input"
+		(property "Netclass" "mic_out"
 			(at 84.5185 121.92 0)
 			(effects
 				(font
@@ -2947,72 +2911,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 213.36 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f9111cd-b3f1-49e7-ba02-8969571d8bde")
-		(property "Reference" "#PWR09"
-			(at 213.36 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 213.36 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 213.36 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9b3fad26-4615-4e76-ac48-8a16887eb6d1")
-		)
-		(instances
-			(project ""
-				(path "/92363970-7a70-4a9d-91f1-fb8480a3037e/0efb2e7e-752a-4c09-a01b-8352ef63af5b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Audio:AudioJack3_Ground_Switch")
 		(at 248.92 81.28 0)
 		(mirror y)
@@ -3093,91 +2991,6 @@
 			(project ""
 				(path "/92363970-7a70-4a9d-91f1-fb8480a3037e/0efb2e7e-752a-4c09-a01b-8352ef63af5b"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 223.52 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "472eaf2f-eb32-4997-adc5-af6e05d56403")
-		(property "Reference" "D4"
-			(at 223.52 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 223.52 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 223.52 73.025 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 223.52 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7db670fe-2301-4b59-9ac3-168b7b093f7b")
-		)
-		(pin "2"
-			(uuid "926587e4-3801-40af-a602-cff7198596fb")
-		)
-		(instances
-			(project ""
-				(path "/92363970-7a70-4a9d-91f1-fb8480a3037e/0efb2e7e-752a-4c09-a01b-8352ef63af5b"
-					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -3405,12 +3218,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 76.2 59.69 0)
+		(property "Value" "+5V_in"
+			(at 78.74 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
